@@ -2,35 +2,35 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is Pandas in Python?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A web development framework",
+        "b": "A data manipulation library",
+        "c": "A machine learning algorithm",
+        "d": "A database management system"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Pandas is not related to web development.",
+        "b": "Correct! Pandas is a powerful library for data manipulation and analysis in Python.",
+        "c": "Pandas is not an ML algorithm but is often used in data preprocessing.",
+        "d": "Pandas is not a database management system, but it can interact with databases."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which data structure does Pandas primarily use?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Array",
+        "b": "List",
+        "c": "DataFrame",
+        "d": "Tuple"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Arrays are used in NumPy, but Pandas builds on top of NumPy.",
+        "b": "Lists are Python's built-in data structure, but Pandas does not use them as its core.",
+        "c": "Correct! Pandas primarily uses DataFrames, which allow structured data manipulation.",
+        "d": "Tuples are immutable sequences and are not used as Pandas' primary data structure."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"

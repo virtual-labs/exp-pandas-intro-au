@@ -1,1 +1,2 @@
-### Link your references in here
+### References 
+https://www.researchgate.net/publication/265194455_pandas_a_Foundational_Python_Library_for_Data_Analysis_and_Statistics

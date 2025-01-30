@@ -2,37 +2,37 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which method is used to read a CSV file into a Pandas DataFrame?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "pd.load_csv()",
+        "b": "pd.open_csv()",
+        "c": "pd.read_csv()",
+        "d": "pd.import_csv()"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. There is no `load_csv()` method in Pandas.",
+        "b": "Incorrect. `open_csv()` is not a valid method in Pandas.",
+        "c": "Correct! The `pd.read_csv()` method is used to read CSV files into a Pandas DataFrame.",
+        "d": "Incorrect. Pandas does not use `import_csv()` to read CSV files."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following methods is used to display the first few rows of a DataFrame?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "df.start()",
+        "b": "df.head()",
+        "c": "df.top()",
+        "d": "df.show()"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. `start()` is not a valid method in Pandas.",
+        "b": "Correct! `df.head()` is used to display the first few rows of a DataFrame.",
+        "c": "Incorrect. `top()` is not a valid method in Pandas.",
+        "d": "Incorrect. `show()` is used in PySpark, not Pandas."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
