@@ -1,0 +1,39 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is Pandas in Python?",
+      "answers": {
+        "a": "A web development framework",
+        "b": "A data manipulation library",
+        "c": "A machine learning algorithm",
+        "d": "A database management system"
+      },
+      "explanations": {
+        "a": "Pandas is not related to web development.",
+        "b": "Correct! Pandas is a powerful library for data manipulation and analysis in Python.",
+        "c": "Pandas is not an ML algorithm but is often used in data preprocessing.",
+        "d": "Pandas is not a database management system, but it can interact with databases."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which data structure does Pandas primarily use?",
+      "answers": {
+        "a": "Array",
+        "b": "List",
+        "c": "DataFrame",
+        "d": "Tuple"
+      },
+      "explanations": {
+        "a": "Arrays are used in NumPy, but Pandas builds on top of NumPy.",
+        "b": "Lists are Python's built-in data structure, but Pandas does not use them as its core.",
+        "c": "Correct! Pandas primarily uses DataFrames, which allow structured data manipulation.",
+        "d": "Tuples are immutable sequences and are not used as Pandas' primary data structure."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
