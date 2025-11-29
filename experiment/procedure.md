@@ -1,4 +1,4 @@
-### Procedure
+
 <p><strong>Step 1:</strong> Click the "Creation" button to explore the features of Pandas.</p>
 <img src="./images/pandas1.png" width="50%">
 
