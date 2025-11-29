@@ -1,0 +1,112 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which Pandas function is used to remove rows with missing values from a DataFrame?",
+      "answers": {
+        "a": "df.drop_missing()",
+        "b": "df.remove_na()",
+        "c": "df.dropna()",
+        "d": "df.clean()"
+      },
+      "explanations": {
+        "a": "Incorrect. `drop_missing()` is not a valid Pandas function.",
+        "b": "Incorrect. `remove_na()` does not exist in Pandas.",
+        "c": "Correct! `df.dropna()` removes rows containing missing values.",
+        "d": "Incorrect. There is no `clean()` function in Pandas."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+
+    {
+      "question": "Which operation does `df.groupby('category').mean()` perform?",
+      "answers": {
+        "a": "Sorts the DataFrame by category column",
+        "b": "Splits data into groups by 'category' and computes the mean for each group",
+        "c": "Filters the DataFrame for rows where category equals mean",
+        "d": "Creates a pivot table of categories"
+      },
+      "explanations": {
+        "a": "Sorting is done using `sort_values()`.",
+        "b": "Correct! `groupby()` groups data, and `mean()` calculates average values for each group.",
+        "c": "Filtering is not done using `groupby()`.",
+        "d": "Pivot tables are created using `pivot_table()`."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+
+    {
+      "question": "What does the `df.iloc[2, 1]` statement do?",
+      "answers": {
+        "a": "Selects data using label-based indexing",
+        "b": "Selects the 2nd row and 1st column",
+        "c": "Selects the third row and second column using position-based indexing",
+        "d": "Deletes the third row and second column"
+      },
+      "explanations": {
+        "a": "`loc` is used for label-based indexing.",
+        "b": "Row and column indices start at 0, so this is incorrect.",
+        "c": "Correct! `iloc` selects by index position: row 2, column 1.",
+        "d": "`iloc` is not used for deletion."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+
+    {
+      "question": "Which method is used to merge two DataFrames based on a common column?",
+      "answers": {
+        "a": "pd.combine()",
+        "b": "pd.merge()",
+        "c": "pd.concat()",
+        "d": "df.join_columns()"
+      },
+      "explanations": {
+        "a": "Incorrect. There is no `combine()` method in Pandas.",
+        "b": "Correct! `pd.merge()` merges DataFrames using a key column.",
+        "c": "`concat()` stacks DataFrames vertically or horizontally but does not merge on a key.",
+        "d": "`join_columns()` is not a valid Pandas method."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+
+    {
+      "question": "What does `df['column'].astype(float)` do?",
+      "answers": {
+        "a": "Creates a duplicate column",
+        "b": "Changes the data type of the column to float",
+        "c": "Deletes all non-float values in the column",
+        "d": "Converts the entire DataFrame into float"
+      },
+      "explanations": {
+        "a": "Incorrect. `astype()` does not duplicate data.",
+        "b": "Correct! `astype()` is used to change a column’s data type.",
+        "c": "Incorrect. It converts values; it does not delete them.",
+        "d": "Only the selected column is converted, not the entire DataFrame."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+
+    {
+      "question": "Which Pandas function is most suitable for quickly generating summary statistics for a DataFrame?",
+      "answers": {
+        "a": "df.describe()",
+        "b": "df.summary()",
+        "c": "df.statistics()",
+        "d": "df.info()"
+      },
+      "explanations": {
+        "a": "Correct! `df.describe()` provides count, mean, std, min, max, and quartiles.",
+        "b": "Incorrect. `summary()` does not exist in Pandas.",
+        "c": "Incorrect. `statistics()` is not a Pandas method.",
+        "d": "`df.info()` shows memory usage and data types, not summary statistics."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    }
+  ]
+}

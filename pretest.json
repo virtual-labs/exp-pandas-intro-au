@@ -1,0 +1,112 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is Pandas primarily used for in Python?",
+      "answers": {
+        "a": "Web page design",
+        "b": "Data manipulation and analysis",
+        "c": "Mobile app development",
+        "d": "Network security"
+      },
+      "explanations": {
+        "a": "Pandas is not used for designing web pages.",
+        "b": "Correct! Pandas is a powerful library for data manipulation and analysis.",
+        "c": "Pandas is unrelated to mobile app development.",
+        "d": "Pandas is not a network security library."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "Which of the following is a core data structure in Pandas?",
+      "answers": {
+        "a": "Tuple",
+        "b": "Series",
+        "c": "Set",
+        "d": "Dictionary"
+      },
+      "explanations": {
+        "a": "Tuples are Python structures but not core Pandas objects.",
+        "b": "Correct! A Series is a one-dimensional labeled data structure in Pandas.",
+        "c": "Sets are built-in Python types, not Pandas structures.",
+        "d": "Dictionaries are used in Python but are not Pandas' primary structures."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "What is a DataFrame in Pandas?",
+      "answers": {
+        "a": "A two-dimensional table with labeled rows and columns",
+        "b": "A single row of data",
+        "c": "An image stored in memory",
+        "d": "A function used for visualization"
+      },
+      "explanations": {
+        "a": "Correct! A DataFrame represents tabular data similar to Excel or SQL tables.",
+        "b": "A DataFrame contains multiple rows and columns, not just one.",
+        "c": "Pandas DataFrames are not related to image files.",
+        "d": "DataFrames store data; they are not visualization functions."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "How does Pandas handle missing data?",
+      "answers": {
+        "a": "It cannot detect missing data",
+        "b": "It automatically aligns labels and offers tools like fill or drop",
+        "c": "It deletes the entire dataset",
+        "d": "It converts missing values to errors"
+      },
+      "explanations": {
+        "a": "Pandas can detect missing values using NaN.",
+        "b": "Correct! Pandas provides functions to fill, drop, or interpolate missing data.",
+        "c": "Pandas does not remove entire datasets due to missing values.",
+        "d": "Pandas handles missing values gracefully without errors."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "Which Pandas feature is used to group data and apply summary functions?",
+      "answers": {
+        "a": "loc",
+        "b": "pivot",
+        "c": "GroupBy",
+        "d": "merge"
+      },
+      "explanations": {
+        "a": "loc is used for label-based indexing.",
+        "b": "pivot reshapes data but does not group it.",
+        "c": "Correct! GroupBy allows grouping data and applying aggregations.",
+        "d": "merge is used to combine DataFrames, not group them."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "Why is Pandas faster than using plain Python lists for data processing?",
+      "answers": {
+        "a": "It uses vectorized operations through NumPy",
+        "b": "It uses machine learning models internally",
+        "c": "It stores data in text format",
+        "d": "It avoids memory usage"
+      },
+      "explanations": {
+        "a": "Correct! Vectorized operations allow Pandas to process entire arrays efficiently.",
+        "b": "Pandas does not use ML algorithms internally.",
+        "c": "Pandas uses optimized binary formats, not text.",
+        "d": "Pandas still uses memory; it does not avoid it."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
